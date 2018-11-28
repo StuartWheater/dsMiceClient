@@ -2,7 +2,6 @@
 output:
   md_document:
     variant: markdown_github
-bibliography: refs.bibtex
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -18,7 +17,7 @@ options(width = 60, digits = 3)
 
 # miceds
 
-## [Multivariate Imputation by Chained Equations for DataSHIELD]
+## Multivariate Imputation by Chained Equations for DataSHIELD
 
 The [`mice`](https://cran.r-project.org/package=mice) package
 implements a popular method to deal with missing data. The package creates

@@ -2,8 +2,8 @@
 miceds
 ======
 
-\[Multivariate Imputation by Chained Equations for DataSHIELD\]
----------------------------------------------------------------
+Multivariate Imputation by Chained Equations for DataSHIELD
+-----------------------------------------------------------
 
 The [`mice`](https://cran.r-project.org/package=mice) package implements a popular method to deal with missing data. The package creates multiple imputations (replacement values) for multivariate missing data.
 
