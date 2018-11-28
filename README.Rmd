@@ -19,7 +19,7 @@ options(width = 60, digits = 3)
 
 ## Multivariate Imputation by Chained Equations for DataSHIELD
 
-The [`mice`](https://cran.r-project.org/package=mice) package
+The [`mice`](https://github.com/stefvanbuuren/mice) package
 implements a popular method to deal with missing data. The package creates
 multiple imputations (replacement values) for multivariate missing
 data.
@@ -28,7 +28,7 @@ The [`DataSHIELD`](https://github.com/datashield) framework is a
 platform for federated data analysis that brings the algorithm to
 the data. 
 
-The [`miceds`] package is an add-on to `mice` that makes multiple 
+The [`miceds`](https://github.com/stefvanbuuren/miceds) package is an add-on to `mice` that makes multiple 
 imputation available for federated data systems.
 
 ## Installation
