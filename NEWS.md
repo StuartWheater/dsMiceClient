@@ -7,7 +7,7 @@ output: github_document
 
 * Adds prospective `mice.impute.ds.mean()`, `mice.impute.ds.norm()` and
 `mice.impute.ds.pmm()` imputation functions. These function were adapted 
-from `mice 3.3.3`. Note that no `DataSHIELD` functionality has yet been added.
+from `mice 3.3.3`. Note that no `DataSHIELD` functionality has not been added yet.
 
 # miceds 0.1.0
 
