@@ -14,15 +14,12 @@ The [`miceds`](https://github.com/stefvanbuuren/miceds) package is an add-on to 
 Installation
 ------------
 
-If you have been marked as a collaborator on GitHub, you need to generate a personal access token (PAT) on <https://github.com/settings/tokens>. The following code installs the `miceds` package:
+The following code installs the `miceds` package:
 
 ``` r
 install.packages("devtools")
-Sys.setenv(GITHUB_PAT = "copy_your_token_here")
 devtools::install_github("stefvanbuuren/miceds")
 ```
-
-Note: It is best to put your token in [`.Renviron`](http://happygitwithr.com/github-pat.html#how-do-you-authenticate-yourself).
 
 Note
 ----
