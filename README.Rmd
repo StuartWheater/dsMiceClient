@@ -43,6 +43,15 @@ devtools::install_github("stefvanbuuren/miceds")
 
 Note: It is best to put your token in [`.Renviron`](http://happygitwithr.com/github-pat.html#how-do-you-authenticate-yourself).
 
+## Note
+
+Warning: This is an experimental feature. These function do not yet actually work. If you have ideas about the integration of `mice` and `DataSHIELD` feel free to join in. 
+
+## Related initiative
+
+Related work appears in [`dsMice`](https://github.com/gflcampos/dsMice) and 
+[`dsMiceClient`](https://github.com/gflcampos/dsMiceClient).
+
 ## Minimal example
 
     Include minimal example here using public DataSHIELD nodes.
