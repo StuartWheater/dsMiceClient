@@ -67,7 +67,7 @@ mice.impute.ds.norm <- function(y, ry, x, wy = NULL, ...) {
 ds.norm.draw <- function(y, ry, x, rank.adjust = TRUE, ...)
   return(.ds.norm.draw(y, ry, x, rank.adjust = TRUE, ...))
 
-###'@rdname norm.draw
+###'@rdname ds.norm.draw
 ###'@export
 .ds.norm.draw <- function (y, ry, x, rank.adjust = TRUE, ...){
   p <- ds.estimice(x[ry, , drop = FALSE], y[ry], ...)

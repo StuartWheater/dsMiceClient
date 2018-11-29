@@ -6,6 +6,8 @@
 \title{Draws values of beta and sigma by Bayesian linear regression for DataSHIELD}
 \usage{
 ds.norm.draw(y, ry, x, rank.adjust = TRUE, ...)
+
+.ds.norm.draw(y, ry, x, rank.adjust = TRUE, ...)
 }
 \arguments{
 \item{y}{Incomplete data vector of length \code{n}}
