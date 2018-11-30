@@ -2,14 +2,16 @@
 dsMiceClient
 ============
 
-Multivariate Imputation by Chained Equations for DataSHIELD
------------------------------------------------------------
+Multivariate Imputation by Chained Equations for DataSHIELD - Client
+--------------------------------------------------------------------
 
 The [`mice`](https://github.com/stefvanbuuren/mice) package creates multiple imputations (replacement values) for multivariate missing data.
 
 The [`DataSHIELD`](https://github.com/datashield) framework is a platform for federated data analysis that brings the algorithm to the data.
 
-The [`dsMiceClient`](https://github.com/stefvanbuuren/dsMiceClient) package is an add-on to `mice` that makes multiple imputation available for federated data systems.
+The [`dsMiceClient`](https://github.com/stefvanbuuren/dsMiceClient) package is an add-on to `mice` that makes multiple imputation available for federated data systems. This is the package that the `DataSHIELD` end user installs locally.
+
+The [`dsMice`](https://github.com/stefvanbuuren/dsMice) package is part of the `DataSHIELD` infrastructure. This is the package that the `DataSHIELD` node owner installs on the server.
 
 Installation
 ------------
@@ -31,7 +33,7 @@ Warning: This is an experimental feature. These function do not yet actually wor
 Related initiative
 ------------------
 
-Related work appears in [`dsMice`](https://github.com/gflcampos/dsMice) and [`dsMiceClient`](https://github.com/gflcampos/dsMiceClient).
+Related work appears in [`gflcampos/dsMice`](https://github.com/gflcampos/dsMice) and [`gflcampos/dsMiceClient`](https://github.com/gflcampos/dsMiceClient).
 
 Minimal example
 ---------------
