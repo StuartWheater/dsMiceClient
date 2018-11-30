@@ -1,6 +1,6 @@
 Package: miceds
 Title: Multiple Imputation by Chained Equations for DataSHIELD
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: person("Stef", "van Buuren", email = "stef.vanbuuren@tno.nl", role = c("aut", "cre"))
 Description: The miceds package adds functionality to perform multiple imputation 
     by chained equations (mice) for federated analysis by means of the DataSHIELD 

@@ -3,6 +3,11 @@ title: "News"
 output: github_document
 ---
 
+# miceds 0.3.0 
+
+* Adds `login()` convenience function
+* Adds login to `test-mice.impute.ds.mean()`
+
 # miceds 0.2.0
 
 * Adds prospective `mice.impute.ds.mean()`, `mice.impute.ds.norm()` and
