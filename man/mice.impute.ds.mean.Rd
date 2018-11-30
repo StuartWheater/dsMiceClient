@@ -4,7 +4,8 @@
 \alias{mice.impute.ds.mean}
 \title{Imputation by the mean for DataSHIELD}
 \usage{
-mice.impute.ds.mean(y, ry, x = NULL, wy = NULL, ...)
+mice.impute.ds.mean(y, ry, x = NULL, wy = NULL, datasources = NULL,
+  ...)
 }
 \arguments{
 \item{y}{Vector to be imputed}
@@ -20,10 +21,13 @@ model is fitted. The \code{ry} generally distinguishes the observed
 \item{wy}{Logical vector of length \code{length(y)}. A \code{TRUE} value
 indicates locations in \code{y} for which imputations are created.}
 
+\item{datasources}{A list with cluster information, usally the result
+of a call to \code{opal::datashield.login()}.}
+
 \item{...}{Other named arguments.}
 }
 \value{
-Vector with imputed data, same type as \code{y}, and of length 
+Vector with imputed data, same type as \code{y}, and of length
 \code{sum(wy)}
 }
 \description{
@@ -31,7 +35,7 @@ Imputes the arithmetic mean of the observed data
 }
 \section{Warning}{
  Imputing the mean of a variable is almost never
-appropriate.  See Little and Rubin (2002, p. 61-62) or 
+appropriate.  See Little and Rubin (2002, p. 61-62) or
 Van Buuren (2012, p. 10-11)
 }
 
@@ -44,7 +48,7 @@ Statistical Software}, \bold{45}(3), 1-67.
 Little, R.J.A. and Rubin, D.B. (2002). Statistical Analysis with Missing
 Data.  New York: John Wiley and Sons.
 
-Van Buuren, S. (2018). 
+Van Buuren, S. (2018).
 \href{https://stefvanbuuren.name/fimd/sec-simplesolutions.html#sec:meanimp}{\emph{Flexible Imputation of Missing Data. Second Edition.}}
 Chapman & Hall/CRC. Boca Raton, FL.
 }
