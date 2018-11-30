@@ -1,4 +1,4 @@
 library(testthat)
-library(miceds)
+library(dsMiceClient)
 
-test_check("miceds")
+test_check("dsMiceClient")
