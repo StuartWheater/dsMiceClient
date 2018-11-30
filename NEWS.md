@@ -3,10 +3,12 @@ title: "News"
 output: github_document
 ---
 
-# miceds 0.3.0 
+# miceds 0.3.1
 
 * Adds `login()` convenience function
 * Adds login to `test-mice.impute.ds.mean()`
+* Adds imports from `opal` and `dsBaseClient`
+* Create test for `test-mice.impute.ds.mean()`
 
 # miceds 0.2.0
 
