@@ -1,5 +1,7 @@
-require(dsBaseClient)
-require(mice)
+context("mice.impute.ds.mean")
+
+source("library.R")
+opals <- login("opal-demo")
 
 # using central data
 
@@ -12,7 +14,12 @@ nhanes_bot <- nhanes[11:25, ]   # --> to server 2
 
 ## put the login here
 
-# means_of_age <- ds.mean(x = "age", datasources = c("server1 and server 2"))
-# means_of_chl <- ds.mean(x = "chl", na.rm = TRUE, datasources = c("server1 and server 2"))
+mean1 <- ds.mean(x = "D$LAB_TSC", datasources = opals)
+# sum1 <- ds.summary(x = "D$LAB_TSC", datasources = opals)
+# numNA <- ds.numNA(x = "D$LAB_TSC", datasources = opals)
+# colnam <- ds.colnames(x = "D")
+# dims <- ds.dim(x = "D")
+# lsl <- ds.ls()
+# ds.meanByClass(x='D$LAB_HDL~D$GENDER')
 
 test_that("this is just a dummy test", expect_true(TRUE))
