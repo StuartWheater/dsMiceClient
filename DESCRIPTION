@@ -7,9 +7,9 @@ Description: The miceds package adds functionality to perform multiple imputatio
     framework.
 Depends: R (>= 3.5),
          mice (>= 3.0)
-Suggests: testthat,
-          opal,
-          dsBaseClient
+Imports: opal,
+         dsBaseClient
+Suggests: testthat
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

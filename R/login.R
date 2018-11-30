@@ -18,8 +18,8 @@ login <- function(cluster = c("recap", "opal-demo")) {
       user = "administrator",
       password = "password",
       table = paste0("datashield.CNSIM", 1:3))
-    opals <- opal::datashield.login(logins = logindata,
-                                    assign = TRUE)
+    opals <- datashield.login(logins = logindata,
+                              assign = TRUE)
     return(invisible(opals))
   }
 
@@ -32,8 +32,8 @@ login <- function(cluster = c("recap", "opal-demo")) {
       password = Sys.getenv("RECAP_PW"),
       table = c('imputation1.nhanes_top', 'imputation2.nhanes_bot'))
 
-    opals <- opal::datashield.login(logins = logindata,
-                                    assign = TRUE)
+    opals <- datashield.login(logins = logindata,
+                              assign = TRUE)
     return(invisible(opals))
   }
 }
